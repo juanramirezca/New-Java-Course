@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/00 Hello World/00 Hello World.iml" filepath="$PROJECT_DIR$/00 Hello World/00 Hello World.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/00 Introduction.iml" filepath="$PROJECT_DIR$/.idea/00 Introduction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01 Variables/01 Variables.iml" filepath="$PROJECT_DIR$/01 Variables/01 Variables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02 Mathematical Operations and Precedence/02 Mathematical Operations and Precedence.iml" filepath="$PROJECT_DIR$/02 Mathematical Operations and Precedence/02 Mathematical Operations and Precedence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03 Input/03 Input.iml" filepath="$PROJECT_DIR$/03 Input/03 Input.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04 Conditionals/04 Conditionals.iml" filepath="$PROJECT_DIR$/04 Conditionals/04 Conditionals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05 Switch Statement/05 Switch Statement.iml" filepath="$PROJECT_DIR$/05 Switch Statement/05 Switch Statement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06 Loops/06 Loops.iml" filepath="$PROJECT_DIR$/06 Loops/06 Loops.iml" />
+    </modules>
+  </component>
+</project>

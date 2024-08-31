@@ -29,10 +29,12 @@ public class VariablesMain {
         */
 
         // Example 2: Bad examples of variable names
-        int x, y, z;
+        //int x, y, z;
+        //z = x * y / 2;
 
         // Example 3: Good examples of variable names
-        int base, height, triangleArea;
+        //int base, height, triangleArea;
+        //triangleArea = base * height / 2;
 
         /*
         3. Variable Types.
@@ -84,5 +86,19 @@ public class VariablesMain {
          *    B) Calculate the total amount to pay (a bill + tip).
          *    C) Calculate the amount each person should pay (assuming an equal split).
          */
+
+        int base, altura, area;
+        base = 10;
+        altura = 15;
+        area = base * altura / 2;
+        System.out.println("Area = " + area);
+
+        //Ejercicio 2
+        int pi, rad;
+        double areaCirculo;
+        rad = 5;
+        //areaCirculo = Math.PI * rad * rad; // Math.pow(rad,2)
+        areaCirculo = Math.PI * Math.pow(rad,2);
+        System.out.println("Area Circulo " + areaCirculo);
     }
 }

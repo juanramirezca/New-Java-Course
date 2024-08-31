@@ -29,6 +29,28 @@ public class ConditionalsMain {
        | F | T |    F    |       | F | T |    T   |      *---*-------*
        | F | F |    F    |       | F | F |    F   |
        *---*---*---------*       *---*---*--------*
+
+       p = "Dara es argentina" false
+       q = "Dara es mayor de edad" true
+       p and q = "Dara puede votar"
+
+       Cuenta bancaria
+       1. INE
+       2. Comprobante de domicilio
+       p and q = "Traes INE AND traes comprobante de domicilio"
+       p = "Dara trae INE" true
+       q = "Dara trae comprobante de domicilio" true
+
+       Graduarte
+       1. Que tengas promedio arriba de 9
+       2. Que hagas examen de titulacion
+       p or q = "Que tengas promedio arriba de 9 OR Que hagas examen de titulacion"
+
+       p = "Dara tiene promedio de 9.5" true
+       q = "Dara no hizo examen" false
+
+
+
         */
 
         /*
@@ -40,9 +62,13 @@ public class ConditionalsMain {
         */
 
         // Example 1: Checking if a score is within a valid range
-        int score = 8;
-        boolean validScore = (score > 0) && (score < 10);
+        int score = 12;
+        boolean validScore = (score > 0) || (score < 10);
+        // p = "12 > 0" T
+        // q = "12 < 10" F
+        // p OR q = (score > 0) && (score < 10) T
         System.out.println("Is it a valid score? " + validScore);
+
 
         /*
         4. Conditional Statements.

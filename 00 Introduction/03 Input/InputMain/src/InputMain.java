@@ -21,20 +21,32 @@ public class InputMain {
         - `nextBoolean()`: Reads a boolean value (true or false).
         */
 
+        int numero = 10;
+
         // Create a Scanner instance
         Scanner sc = new Scanner(System.in);
 
         // Example 1. Asking an integer value from the user
+        /*
         int firstValue;
-        System.out.println("Give me an integer value!");
-        firstValue = sc.nextInt();
-        System.out.println("The integer value that you typed is: " + firstValue);
+        try{
+            System.out.println("Give me an integer value!");
+            firstValue = sc.nextInt();
+            System.out.println("The integer value that you typed is: " + firstValue);
+        } catch(Exception exception){
+            System.out.println(exception);
+        }
+
+
+
 
         // Example 2. Asking for a name from the user
         String name;
         System.out.println("Give me your name!");
-        name = sc.next();
+        name = sc.nextLine();
         System.out.println("Your name is " + name);
+
+
 
         // Example 3. Asking for a floating-point number
         System.out.println("Give me a decimal value!");
@@ -61,12 +73,14 @@ public class InputMain {
         System.out.println("Give me a large number!");
         long largeNumber = sc.nextLong();
         System.out.println("The large number you typed is: " + largeNumber);
+        */
+
 
         /*
         2. Closing the Scanner
         After you have finished using the Scanner, it is good practice to close it to free up resources.
          */
-        sc.close();
+
 
         /*
         3. Exercises.
@@ -75,5 +89,13 @@ public class InputMain {
         3. Write a program that converts an amount in one currency to another.
             For example, ask the user for an amount in USD and convert it to EUR using a fixed conversion rate.
          */
+        int val1, val2, resultadoSuma;
+        System.out.println("Give me a value ");
+        val1 = sc.nextInt();
+        System.out.println("Give me another value ");
+        val2 = sc.nextInt();
+        resultadoSuma = val1 + val2;
+        System.out.println("Resultado " + resultadoSuma);
+
     }
 }
